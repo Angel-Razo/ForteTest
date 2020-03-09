@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 API", "01 API", "{9A14CD29-C146-429A-840B-EE8BF926E2A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Services", "02 Services", "{2CBDC334-6FC6-4A8C-92F0-BDBC3E0E3A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Persistence", "03 Persistence", "{9D993152-AE20-4B09-9195-03B1AB095E6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Common", "04 Common", "{50D682F2-FF4D-46AB-B4FC-E19EAD8798B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForteTestApi.ApiRest", "ForteTestApi.ApiRest\ForteTestApi.ApiRest.csproj", "{08A3DAE6-CF37-444A-ACD3-0019BA6C753D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForteTestApi.CoreService", "ForteTestApi.CoreService\ForteTestApi.CoreService.csproj", "{D9CB1271-2C77-4A6C-8D32-F1378BD5DF60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForteTestApi.CoreDbContext", "ForteTestApi.CoreDbContext\ForteTestApi.CoreDbContext.csproj", "{F855933E-3E40-4382-872C-C5C05986858C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForteTestApi.Models", "ForteTestApi.Models\ForteTestApi.Models.csproj", "{5898E42D-6681-4CB6-B453-AE343A66FAF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A3DAE6-CF37-444A-ACD3-0019BA6C753D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A3DAE6-CF37-444A-ACD3-0019BA6C753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A3DAE6-CF37-444A-ACD3-0019BA6C753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A3DAE6-CF37-444A-ACD3-0019BA6C753D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CB1271-2C77-4A6C-8D32-F1378BD5DF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CB1271-2C77-4A6C-8D32-F1378BD5DF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CB1271-2C77-4A6C-8D32-F1378BD5DF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CB1271-2C77-4A6C-8D32-F1378BD5DF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F855933E-3E40-4382-872C-C5C05986858C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F855933E-3E40-4382-872C-C5C05986858C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F855933E-3E40-4382-872C-C5C05986858C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F855933E-3E40-4382-872C-C5C05986858C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5898E42D-6681-4CB6-B453-AE343A66FAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5898E42D-6681-4CB6-B453-AE343A66FAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5898E42D-6681-4CB6-B453-AE343A66FAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5898E42D-6681-4CB6-B453-AE343A66FAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08A3DAE6-CF37-444A-ACD3-0019BA6C753D} = {9A14CD29-C146-429A-840B-EE8BF926E2A3}
+		{D9CB1271-2C77-4A6C-8D32-F1378BD5DF60} = {2CBDC334-6FC6-4A8C-92F0-BDBC3E0E3A0A}
+		{F855933E-3E40-4382-872C-C5C05986858C} = {9D993152-AE20-4B09-9195-03B1AB095E6E}
+		{5898E42D-6681-4CB6-B453-AE343A66FAF9} = {50D682F2-FF4D-46AB-B4FC-E19EAD8798B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F6F0B2A-E5B2-4E0C-BA86-1FA610011AEF}
+	EndGlobalSection
+EndGlobal
