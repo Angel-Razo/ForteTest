@@ -1,5 +1,9 @@
 ﻿################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
-
+cache/
+Bin/
 /ForteTestApi.Backend/.vs/ForteTestApi.Backend/DesignTimeBuild
+/ForteTestApi.Backend/.vs/ForteTestApi.Backend/v15
+/ForteTestApi.Backend/.vs/ForteTestApi.Backend/v16
+/ForteTestApi.Backend/ForteTestApi.ApiRest/bin/Debug/netcoreapp3.1
